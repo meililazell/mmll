@@ -15,7 +15,7 @@ export default function PayButton({ url, text }: PayButtonProps) {
   
     return (
       <button
-        className="w-full flex justify-center items-center space-x-2 bg-[#3b7bbf] hover:bg-[#3b7bbf]/90"
+        className="text-primary-foreground w-full flex justify-center items-center space-x-2 bg-[#3b7bbf] hover:bg-[#3b7bbf]/90"
         onClick={handleClick}
       >
         <Icons.paypal className="h-5 w-5" />
