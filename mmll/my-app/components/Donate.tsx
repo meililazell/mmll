@@ -5,6 +5,7 @@ import { Label } from "@/components/ui/label"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Icons } from "@/components/icons"
 import QRCodeWithLogo from "./QRCodeWithLogo"
+import PayButton from "./PayButton";
 
 export default function Donate() {
 
@@ -18,6 +19,8 @@ export default function Donate() {
   const logoPath =
     "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/MMLLFdn%20medium.jpg-tjbn936DVX3YcJCF1fWRt0Ep8xctQG.jpeg"
 
+
+  
   return (
     <section id="donate" className="py-20 bg-gradient-to-b from-blue-100 to-white">
       <div className="container mx-auto px-4">
@@ -33,25 +36,14 @@ export default function Donate() {
                 <div>
                   <div className="grid md:grid-cols-2 gap-4">
                     <div className="space-y-2">
-                      <Button
-                        className="w-full flex justify-center items-center space-x-2 bg-[#3b7bbf] hover:bg-[#3b7bbf]/90"
-                        onClick={() => window.open(paypalUrl, "_blank")}
-                      >
-                        <Icons.paypal className="h-5 w-5" />
-                        <span>Donate with PayPal</span>
-                      </Button>
+                      <PayButton url={paypalUrl} text="Paypal"/>
                       <div className="flex justify-center">
                         <QRCodeWithLogo value={paypalUrl} logoUrl={logoPath} size={128} logoWidth={48} logoHeight={36} />
                       </div>
                     </div>
                     <div className="space-y-2">
-                      <Button
-                        className="w-full flex justify-center items-center space-x-2 bg-[#3D95CE] hover:bg-[#3D95CE]/90"
-                        onClick={() => window.open(venmoUrl, "_blank")}
-                      >
-                        <Icons.venmo className="h-5 w-5" />
-                        <span>Donate with Venmo</span>
-                      </Button>
+                      
+                    <PayButton url={venmoUrl} text="Venmo"/>
                       <div className="flex justify-center">
                         <QRCodeWithLogo value={venmoAppUrl} logoUrl={logoPath} size={128} logoWidth={48} logoHeight={36}  />
                       </div>
