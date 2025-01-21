@@ -3,7 +3,12 @@
 import React from "react";
 import { Icons } from './icons';
 
-export default function PayButton({ url, text }) {
+interface PayButtonProps {
+  url: string; // Explicitly declare the type as string
+  text: string; // Explicitly declare the type as string
+}
+
+export default function PayButton({ url, text }: PayButtonProps) {
     const handleClick = () => {
       window.open(url, "_blank");
     };
