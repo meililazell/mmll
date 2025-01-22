@@ -2,7 +2,6 @@ import Header from '../components/Header'
 import Hero from '../components/Hero'
 import About from '../components/About'
 import Programs from '../components/Programs'
-import Impact from '../components/Impact'
 import Footer from '../components/Footer'
 import Leadership from '../components/Leadership'
 import LegalStatus from '../components/LegalStatus'
@@ -20,7 +19,6 @@ export default function Home() {
         <About />
         <Leadership />
         <Programs />
-        <!--<Impact />-->
         <Governance />
         <Fundraising />
         <Donate />
