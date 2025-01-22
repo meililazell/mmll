@@ -23,7 +23,6 @@ export default function Header() {
             <li><Link href="#about" className="hover:underline">About</Link></li>
             <li><Link href="#programs" className="hover:underline">Programs</Link></li>
             <li><Link href="#leadership" className="hover:underline">Leadership</Link></li>
-            <li><Link href="#impact" className="hover:underline">Our Impact</Link></li>
             <li><Link href="#governance" className="hover:underline">Governance</Link></li>
             <li><Link href="#fundraising" className="hover:underline">Fundraising</Link></li>
             <li><Link href="#donate" className="hover:underline">Donate</Link></li>
