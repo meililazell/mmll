@@ -20,7 +20,7 @@ export default function Home() {
         <About />
         <Leadership />
         <Programs />
-        <Impact />
+        <!--<Impact />-->
         <Governance />
         <Fundraising />
         <Donate />
