@@ -9,7 +9,7 @@ import PayButton from "./PayButton";
 
 export default function Donate() {
 
-  const paypalUrl = `https://www.paypal.com/donate/buttons/manage/2YAJDE77RTPBU`
+  const paypalUrl = `https://www.paypal.com/donate/?hosted_button_id=2T2LVQ7VNAMPJ`
 
   const venmoUrl = `https://venmo.com/mmll-fdn`
 
