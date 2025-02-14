@@ -2,7 +2,7 @@ import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card"
 
 export default function Leadership() {
   return (
-    <section id="leadership" className="py-20 bg-gradient-to-b from-white to-blue-100 text-gray-800">
+    <section id="leadership" className="py-20 bg-gradient-to-b from-blue-100 to-white text-gray-800">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-8 text-center text-blue-800">Our Leadership</h2>
         <div className="grid md:grid-cols-2 gap-8">

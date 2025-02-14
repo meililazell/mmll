@@ -3,7 +3,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 export default function Fundraising() {
   return (
-    <section id="fundraising" className="py-20 bg-gradient-to-b from-white to-blue-100">
+    <section id="fundraising" className="py-20 bg-gradient-to-b from-blue-100 to-white">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-8 text-center text-blue-800">Our Fundraising Initiatives</h2>
         <p className="text-center mb-8 text-lg text-gray-700">At the Michael and Mei Li Lazell Foundation, we employ various strategies to raise funds and ensure the sustainability of our mission to improve lives.</p>

@@ -7,6 +7,7 @@ import Leadership from '../components/Leadership'
 import LegalStatus from '../components/LegalStatus'
 import Governance from '../components/Governance'
 import Fundraising from '../components/Fundraising'
+import PublicDocuments from '../components/PublicDocuments'
 import Donate from '../components/Donate'
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
         <Leadership />
         <Programs />
         <Governance />
+        <PublicDocuments />
         <Fundraising />
         <Donate />
       </main>

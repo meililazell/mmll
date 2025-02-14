@@ -25,6 +25,7 @@ export default function Header() {
             <li><Link href="#leadership" className="hover:underline">Leadership</Link></li>
             <li><Link href="#governance" className="hover:underline">Governance</Link></li>
             <li><Link href="#fundraising" className="hover:underline">Fundraising</Link></li>
+            <li><Link href="#publicdocuments" className="hover:underline">Public Documents</Link></li>
             <li><Link href="#donate" className="hover:underline">Donate</Link></li>
             <li><Link href="#contact" className="hover:underline">Contact</Link></li>
           </ul>

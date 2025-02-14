@@ -21,7 +21,12 @@ export default function Footer() {
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
-            <p>Email: meililazell@gmail.com</p>
+            <p>meililazell@gmail.com</p>
+            <p>Or</p>
+            <p>Michael and Mei Li Lazell Foundation</p>
+            <p>P.O. 4201 </p>
+            <p>2070 N Broadway</p>
+            <p>Walnut Creek, CA 94596</p>
           </div>
         </div>
         <div className="mt-8 text-center">
